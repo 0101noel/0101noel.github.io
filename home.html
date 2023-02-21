@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap prject</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleh.css">
+    
+    <style>
+      .services__card img,
+      .projects__card img {
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><span class="text-primary">7RBL Corporation</span> |  Uplifting Individuals and Society</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item"> 
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>         
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="header__title">Building Your Dream Home</h1>
+            <p class="header__text">We are a team of experienced contractors that specialize in creating custom homes that fit your style and budget.</p>
+
+            <a href="#" class="btn btn-primary btn-lg header__btn">Get a Quote</a>
+          </div>
+          <div class="col-md-6">
+            <img src="img/home-3.jfif" class="img-fluid header__img" alt="Construction Image">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Services -->
+    <section class="services">
+      <div class="container">
+        <h2 class="services__title">Our Services</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card services__card">
+              <img src="img/bridgescon.jfif" class="card-img-top" alt="Construction Services Image">
+              <div class="card-body">
+                <h5 class="card-title">BRIDGES CONSTRUCTION</h5>
+                <p class="card-text">With 40 years of experience in bridge construction, we are a reliable team of contractors.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card services__card">
+              <img src="img/hihwaycons.jfif" class="card-img-top" alt="Construction Services Image">
+              <div class="card-body">
+                <h5 class="card-title">HIGHWAYS CONSTRUCTION</h5>
+                <p class="card-text">With 40 years of experience in highway construction, we are a reliable team of contractors.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="card services__card">
+              <img src="img/commercialcon.jfif" class="card-img-top" alt="Construction Services Image">
+              <div class="card-body">
+                <h5 class="card-title">COMMERCIAL CONSTRUCTION</h5>
+                <p class="card-text">With 40 years of experience in building construction, we are a reliable team of contractors.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+          
+          <!-- Projects -->
+  <section class="projects">
+    <div class="container">
+      <h2 class="projects__title">Our Projects</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card projects__card">
+            <img src="img/bridge.jfif" class="card-img-top" alt="Construction Project Image">
+            <div class="card-body">
+              <h5 class="card-title">BRIDGES</h5>
+              <p class="card-text">“When you cross a bridge, never forget this: You crossed because the bridge allowed it!”</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card projects__card">
+            <img src="img/hiway.jfif" class="card-img-top" alt="Construction Project Image">
+            <div class="card-body">
+              <h5 class="card-title">HIGHWAYS</h5>
+              <p class="card-text">"The road to success is always under construction"</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card projects__card">
+            <img src="img/commercial.avif" class="card-img-top" alt="Construction Project Image">
+            <div class="card-body">
+              <h5 class="card-title">COMMERCIAL CONSTRUCTION</h5>
+              <p class="card-text">"If a building looks better under construction than it does when finished, then it's a failure"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact">
+    <div class="container">
+      <h2 class="contact__title">Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <p class="contact__text">Call us or send us an email to schedule a consultation and start building your dream home today!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--footer -->
+
+  <footer class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md text-center">
+          <p class="text-white">&copy; 2023 www.7rbl.com All Right Reserve</p>
+        </div>
+      </div>
+    </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  
+</body>
+</html>
+
